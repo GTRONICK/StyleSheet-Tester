@@ -8,6 +8,7 @@
 #include <QTextStream>
 #include <QApplication>
 #include <QDesktopWidget>
+#include <QColorDialog>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -67,4 +68,11 @@ void MainWindow::on_ProgessBarControl_valueChanged(int value)
 {
     ui->progressBar->setValue(value);
     ui->lcdNumber->display(value);
+}
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    QColorDialog *lobColorDialog = new QColorDialog;
+    lobColorDialog->setCurrentColor(QColor("255,255,255"));
+    lobColorDialog->setVisible(true);
 }
