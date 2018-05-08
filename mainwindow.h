@@ -25,6 +25,8 @@ private slots:
 
     void on_ProgessBarControl_valueChanged(int value);
 
+    void on_pushButton_2_clicked();
+
 private:
     Ui::MainWindow *ui;
     QString gsThemePath;
