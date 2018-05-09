@@ -66,7 +66,7 @@
         <property name="geometry">
          <rect>
           <x>140</x>
-          <y>10</y>
+          <y>20</y>
           <width>91</width>
           <height>16</height>
          </rect>
@@ -79,7 +79,7 @@
         <property name="geometry">
          <rect>
           <x>140</x>
-          <y>40</y>
+          <y>50</y>
           <width>91</width>
           <height>16</height>
          </rect>
@@ -105,7 +105,7 @@
         <property name="geometry">
          <rect>
           <x>140</x>
-          <y>70</y>
+          <y>80</y>
           <width>91</width>
           <height>16</height>
          </rect>
@@ -131,7 +131,7 @@
         <property name="geometry">
          <rect>
           <x>140</x>
-          <y>100</y>
+          <y>110</y>
           <width>91</width>
           <height>16</height>
          </rect>
@@ -157,7 +157,7 @@
         <property name="geometry">
          <rect>
           <x>140</x>
-          <y>130</y>
+          <y>140</y>
           <width>111</width>
           <height>16</height>
          </rect>
@@ -686,7 +686,7 @@ p, li { white-space: pre-wrap; }
          <rect>
           <x>60</x>
           <y>40</y>
-          <width>71</width>
+          <width>81</width>
           <height>81</height>
          </rect>
         </property>
@@ -707,14 +707,17 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_23">
         <property name="geometry">
          <rect>
-          <x>80</x>
+          <x>70</x>
           <y>30</y>
-          <width>41</width>
+          <width>61</width>
           <height>21</height>
          </rect>
         </property>
         <property name="text">
          <string>QDial</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
        <widget class="QLabel" name="label_24">
@@ -1022,7 +1025,7 @@ p, li { white-space: pre-wrap; }
     <string>Reload theme</string>
    </property>
    <property name="shortcut">
-    <string>Ctrl+R</string>
+    <string>F5</string>
    </property>
   </action>
   <action name="actionDefine_theme_path">
@@ -1030,7 +1033,7 @@ p, li { white-space: pre-wrap; }
     <string>Define theme path</string>
    </property>
    <property name="shortcut">
-    <string>Ctrl+Shift+R</string>
+    <string>F1</string>
    </property>
   </action>
  </widget>
