@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>632</width>
-    <height>640</height>
+    <width>681</width>
+    <height>679</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -43,6 +43,16 @@
              </widget>
             </item>
             <item>
+             <widget class="QPushButton" name="pushButton_3">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>Button</string>
+              </property>
+             </widget>
+            </item>
+            <item>
              <widget class="QLabel" name="label">
               <property name="text">
                <string>QPushButton</string>
@@ -55,6 +65,16 @@
            <layout class="QHBoxLayout" name="horizontalLayout_21">
             <item>
              <widget class="QToolButton" name="toolButton">
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButton_2">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
               <property name="text">
                <string>...</string>
               </property>
@@ -79,6 +99,16 @@
              </widget>
             </item>
             <item>
+             <widget class="QCheckBox" name="checkBox_2">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>CheckBox</string>
+              </property>
+             </widget>
+            </item>
+            <item>
              <widget class="QLabel" name="label_4">
               <property name="text">
                <string>QCheckBox</string>
@@ -91,6 +121,16 @@
            <layout class="QHBoxLayout" name="horizontalLayout_23">
             <item>
              <widget class="QRadioButton" name="radioButton">
+              <property name="text">
+               <string>RadioButton</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="radioButton_2">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
               <property name="text">
                <string>RadioButton</string>
               </property>
@@ -140,17 +180,44 @@
            </widget>
           </item>
           <item>
-           <widget class="QCommandLinkButton" name="commandLinkButton">
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>50</height>
-             </size>
-            </property>
-            <property name="text">
-             <string>Link</string>
-            </property>
-           </widget>
+           <layout class="QHBoxLayout" name="horizontalLayout_24">
+            <item>
+             <widget class="QCommandLinkButton" name="commandLinkButton">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Link</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCommandLinkButton" name="commandLinkButton_2">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Link</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_5">
+              <property name="text">
+               <string>QCommandLinkButton</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
           </item>
          </layout>
         </item>
@@ -162,195 +229,296 @@
        </attribute>
        <layout class="QGridLayout" name="gridLayout_3">
         <item row="0" column="0">
-         <layout class="QVBoxLayout" name="verticalLayout_3">
+         <layout class="QHBoxLayout" name="horizontalLayout_20">
           <item>
-           <layout class="QVBoxLayout" name="verticalLayout_2">
+           <widget class="QComboBox" name="comboBox">
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_20">
-              <item>
-               <widget class="QComboBox" name="comboBox">
-                <item>
-                 <property name="text">
-                  <string>Item 0</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Item 1</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Item 2</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Item 3</string>
-                 </property>
-                </item>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_13">
-                <property name="text">
-                 <string>QComboBox</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
+             <property name="text">
+              <string>Item 0</string>
+             </property>
             </item>
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_19">
-              <item>
-               <widget class="QFontComboBox" name="fontComboBox"/>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_14">
-                <property name="text">
-                 <string>QFontComboBox</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
+             <property name="text">
+              <string>Item 1</string>
+             </property>
             </item>
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_18">
-              <item>
-               <widget class="QLineEdit" name="lineEdit">
-                <property name="text">
-                 <string>Simple Text</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_15">
-                <property name="text">
-                 <string>QLineEdit</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
+             <property name="text">
+              <string>Item 2</string>
+             </property>
             </item>
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_17">
-              <item>
-               <widget class="QTextEdit" name="textEdit">
-                <property name="html">
-                 <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+             <property name="text">
+              <string>Item 3</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBox_2">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <item>
+             <property name="text">
+              <string>Item 0</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Item 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Item 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Item 3</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_13">
+            <property name="text">
+             <string>QComboBox</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_19">
+          <item>
+           <widget class="QFontComboBox" name="fontComboBox"/>
+          </item>
+          <item>
+           <widget class="QFontComboBox" name="fontComboBox_2">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_14">
+            <property name="text">
+             <string>QFontComboBox</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_18">
+          <item>
+           <widget class="QLineEdit" name="lineEdit">
+            <property name="text">
+             <string>Simple Text</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_2">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Simple Text</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_15">
+            <property name="text">
+             <string>QLineEdit</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="3" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_17">
+          <item>
+           <widget class="QTextEdit" name="textEdit">
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600; font-style:italic; color:#ff5500;&quot;&gt;Rich Text !&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_16">
-                <property name="text">
-                 <string>QTextEdit</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit_2">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600; font-style:italic; color:#ff5500;&quot;&gt;Rich Text !&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_16">
+            <property name="text">
+             <string>QTextEdit</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="4" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QDateTimeEdit" name="dateTimeEdit"/>
+          </item>
+          <item>
+           <widget class="QDateTimeEdit" name="dateTimeEdit_2">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_22">
+            <property name="text">
+             <string>QDateTimeEdit</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="5" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_16">
+            <item>
+             <widget class="QPlainTextEdit" name="plainTextEdit">
+              <property name="lineWrapMode">
+               <enum>QPlainTextEdit::NoWrap</enum>
+              </property>
+              <property name="plainText">
+               <string/>
+              </property>
+              <property name="placeholderText">
+               <string>Plain Text</string>
+              </property>
+             </widget>
             </item>
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_2">
-              <item>
-               <widget class="QDateTimeEdit" name="dateTimeEdit"/>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_22">
-                <property name="text">
-                 <string>QDateTimeEdit</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
+             <widget class="QPlainTextEdit" name="plainTextEdit_2">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="lineWrapMode">
+               <enum>QPlainTextEdit::NoWrap</enum>
+              </property>
+              <property name="plainText">
+               <string/>
+              </property>
+              <property name="placeholderText">
+               <string>Plain Text</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_17">
+              <property name="text">
+               <string>QPlainTextEdit</string>
+              </property>
+             </widget>
             </item>
            </layout>
           </item>
           <item>
-           <layout class="QVBoxLayout" name="verticalLayout">
+           <layout class="QHBoxLayout" name="horizontalLayout_15">
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_16">
-              <item>
-               <widget class="QPlainTextEdit" name="plainTextEdit">
-                <property name="lineWrapMode">
-                 <enum>QPlainTextEdit::NoWrap</enum>
-                </property>
-                <property name="plainText">
-                 <string/>
-                </property>
-                <property name="placeholderText">
-                 <string>Plain Text</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_17">
-                <property name="text">
-                 <string>QPlainTextEdit</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
+             <widget class="QSpinBox" name="spinBox"/>
             </item>
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_15">
-              <item>
-               <widget class="QSpinBox" name="spinBox"/>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_21">
-                <property name="text">
-                 <string>QSpinBox</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
+             <widget class="QSpinBox" name="spinBox_2">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+             </widget>
             </item>
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_14">
-              <item>
-               <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_18">
-                <property name="text">
-                 <string>QDoubleSpinBox</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
+             <widget class="QLabel" name="label_21">
+              <property name="text">
+               <string>QSpinBox</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_14">
+            <item>
+             <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
             </item>
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_13">
-              <item>
-               <widget class="QTimeEdit" name="timeEdit"/>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_19">
-                <property name="text">
-                 <string>QTimeEdit</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
+             <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+             </widget>
             </item>
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout">
-              <item>
-               <widget class="QDateEdit" name="dateEdit"/>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_20">
-                <property name="text">
-                 <string>QDateEdit</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
+             <widget class="QLabel" name="label_18">
+              <property name="text">
+               <string>QDoubleSpinBox</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_13">
+            <item>
+             <widget class="QTimeEdit" name="timeEdit"/>
+            </item>
+            <item>
+             <widget class="QTimeEdit" name="timeEdit_2">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_19">
+              <property name="text">
+               <string>QTimeEdit</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QDateEdit" name="dateEdit"/>
+            </item>
+            <item>
+             <widget class="QDateEdit" name="dateEdit_2">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_20">
+              <property name="text">
+               <string>QDateEdit</string>
+              </property>
+             </widget>
             </item>
            </layout>
           </item>
@@ -386,8 +554,8 @@ p, li { white-space: pre-wrap; }
                   <rect>
                    <x>0</x>
                    <y>0</y>
-                   <width>286</width>
-                   <height>84</height>
+                   <width>309</width>
+                   <height>102</height>
                   </rect>
                  </property>
                  <attribute name="label">
@@ -399,8 +567,8 @@ p, li { white-space: pre-wrap; }
                   <rect>
                    <x>0</x>
                    <y>0</y>
-                   <width>259</width>
-                   <height>84</height>
+                   <width>100</width>
+                   <height>30</height>
                   </rect>
                  </property>
                  <attribute name="label">
@@ -412,8 +580,8 @@ p, li { white-space: pre-wrap; }
                   <rect>
                    <x>0</x>
                    <y>0</y>
-                   <width>259</width>
-                   <height>84</height>
+                   <width>100</width>
+                   <height>30</height>
                   </rect>
                  </property>
                  <attribute name="label">
@@ -504,8 +672,8 @@ p, li { white-space: pre-wrap; }
                   <rect>
                    <x>0</x>
                    <y>0</y>
-                   <width>469</width>
-                   <height>189</height>
+                   <width>505</width>
+                   <height>200</height>
                   </rect>
                  </property>
                 </widget>
@@ -543,30 +711,60 @@ p, li { white-space: pre-wrap; }
        </attribute>
        <layout class="QGridLayout" name="gridLayout_6">
         <item row="0" column="0">
-         <layout class="QVBoxLayout" name="verticalLayout_19">
+         <layout class="QVBoxLayout" name="verticalLayout_14">
           <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_7">
+           <layout class="QHBoxLayout" name="horizontalLayout_27">
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <layout class="QVBoxLayout" name="verticalLayout_17">
               <item>
-               <layout class="QVBoxLayout" name="verticalLayout_17">
+               <spacer name="verticalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_23">
+                <property name="text">
+                 <string>QDial</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDial" name="dial"/>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_2">
                 <item>
-                 <spacer name="verticalSpacer_3">
-                  <property name="orientation">
-                   <enum>Qt::Vertical</enum>
-                  </property>
-                  <property name="sizeHint" stdset="0">
-                   <size>
-                    <width>20</width>
-                    <height>40</height>
-                   </size>
-                  </property>
-                 </spacer>
-                </item>
-                <item>
-                 <widget class="QLabel" name="label_23">
+                 <widget class="QLabel" name="label_26">
                   <property name="text">
-                   <string>QDial</string>
+                   <string>QKeySequenceEdit</string>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignCenter</set>
@@ -574,36 +772,70 @@ p, li { white-space: pre-wrap; }
                  </widget>
                 </item>
                 <item>
-                 <widget class="QDial" name="dial"/>
-                </item>
-                <item>
-                 <spacer name="verticalSpacer_4">
-                  <property name="orientation">
-                   <enum>Qt::Vertical</enum>
-                  </property>
-                  <property name="sizeHint" stdset="0">
-                   <size>
-                    <width>20</width>
-                    <height>40</height>
-                   </size>
-                  </property>
-                 </spacer>
+                 <layout class="QHBoxLayout" name="horizontalLayout_25">
+                  <item>
+                   <widget class="QKeySequenceEdit" name="keySequenceEdit"/>
+                  </item>
+                  <item>
+                   <widget class="QKeySequenceEdit" name="keySequenceEdit_2">
+                    <property name="enabled">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
                 </item>
                </layout>
               </item>
               <item>
-               <layout class="QVBoxLayout" name="verticalLayout_18">
+               <layout class="QHBoxLayout" name="horizontalLayout_7">
                 <item>
-                 <layout class="QVBoxLayout" name="verticalLayout_16">
+                 <layout class="QVBoxLayout" name="verticalLayout_15">
                   <item>
-                   <widget class="QLabel" name="label_26">
+                   <spacer name="verticalSpacer_4">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_25">
                     <property name="text">
-                     <string>QKeySequenceEdit</string>
+                     <string>QSlider</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
                     </property>
                    </widget>
                   </item>
                   <item>
-                   <widget class="QKeySequenceEdit" name="keySequenceEdit"/>
+                   <widget class="QSlider" name="DialSliderH">
+                    <property name="value">
+                     <number>50</number>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QSlider" name="DialSliderH_2">
+                    <property name="enabled">
+                     <bool>false</bool>
+                    </property>
+                    <property name="value">
+                     <number>50</number>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                   </widget>
                   </item>
                   <item>
                    <spacer name="verticalSpacer">
@@ -621,33 +853,29 @@ p, li { white-space: pre-wrap; }
                  </layout>
                 </item>
                 <item>
-                 <layout class="QVBoxLayout" name="verticalLayout_15">
+                 <layout class="QHBoxLayout" name="horizontalLayout_6">
                   <item>
-                   <widget class="QLabel" name="label_25">
-                    <property name="text">
-                     <string>QSlider</string>
+                   <widget class="QSlider" name="DialSliderV">
+                    <property name="value">
+                     <number>50</number>
                     </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QSlider" name="DialSliderH">
-                    <property name="orientation">
-                     <enum>Qt::Horizontal</enum>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <spacer name="verticalSpacer_2">
                     <property name="orientation">
                      <enum>Qt::Vertical</enum>
                     </property>
-                    <property name="sizeHint" stdset="0">
-                     <size>
-                      <width>20</width>
-                      <height>40</height>
-                     </size>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QSlider" name="DialSliderV_2">
+                    <property name="enabled">
+                     <bool>false</bool>
                     </property>
-                   </spacer>
+                    <property name="value">
+                     <number>50</number>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
                   </item>
                  </layout>
                 </item>
@@ -655,41 +883,50 @@ p, li { white-space: pre-wrap; }
               </item>
              </layout>
             </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_26">
             <item>
-             <widget class="QSlider" name="DialSliderV">
+             <widget class="QScrollBar" name="DialVScrollBar">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>200</height>
+               </size>
+              </property>
               <property name="orientation">
                <enum>Qt::Vertical</enum>
               </property>
              </widget>
             </item>
-           </layout>
-          </item>
-          <item>
-           <layout class="QVBoxLayout" name="verticalLayout_14">
             <item>
-             <widget class="QLabel" name="label_24">
-              <property name="text">
-               <string>QScrollBar</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QScrollBar" name="DialHScrollBar">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-             </widget>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <item>
+               <widget class="QLabel" name="label_24">
+                <property name="layoutDirection">
+                 <enum>Qt::LeftToRight</enum>
+                </property>
+                <property name="text">
+                 <string>QScrollBar</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QScrollBar" name="DialHScrollBar">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
             </item>
            </layout>
           </item>
          </layout>
-        </item>
-        <item row="0" column="1">
-         <widget class="QScrollBar" name="DialVScrollBar">
-          <property name="orientation">
-           <enum>Qt::Vertical</enum>
-          </property>
-         </widget>
         </item>
        </layout>
       </widget>
@@ -699,7 +936,7 @@ p, li { white-space: pre-wrap; }
        </attribute>
        <layout class="QGridLayout" name="gridLayout_7">
         <item row="0" column="0">
-         <layout class="QVBoxLayout" name="verticalLayout_21">
+         <layout class="QVBoxLayout" name="verticalLayout_13">
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_11">
             <item>
@@ -725,6 +962,26 @@ p, li { white-space: pre-wrap; }
            <layout class="QHBoxLayout" name="horizontalLayout_10">
             <item>
              <widget class="QTextBrowser" name="textBrowser">
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:12pt;&quot;&gt;Text browser&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt;&quot;&gt;Simple text in this line&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600; color:#ff5500;&quot;&gt;Rich text in this line&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600; color:#ff5500;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;https://github.com/GTRONICK&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; text-decoration: underline; color:#007af4;&quot;&gt;Link to page&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTextBrowser" name="textBrowser_2">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
               <property name="html">
                <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -788,7 +1045,7 @@ p, li { white-space: pre-wrap; }
            </layout>
           </item>
           <item>
-           <layout class="QVBoxLayout" name="verticalLayout_20">
+           <layout class="QVBoxLayout" name="verticalLayout_12">
             <item>
              <widget class="QSlider" name="ProgessBarControl">
               <property name="maximum">
@@ -806,6 +1063,19 @@ p, li { white-space: pre-wrap; }
              <layout class="QHBoxLayout" name="horizontalLayout_8">
               <item>
                <widget class="QProgressBar" name="progressBar">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
+                <property name="value">
+                 <number>50</number>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QProgressBar" name="progressBar_2">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
                 <property name="value">
                  <number>50</number>
                 </property>
@@ -845,8 +1115,8 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>632</width>
-     <height>35</height>
+     <width>681</width>
+     <height>29</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuTools">
